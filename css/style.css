@@ -977,6 +977,47 @@ textarea.input {
     align-items: stretch;
   }
 
+  .hero-visual > .media-frame,
+  .story-block > .media-frame,
+  .service-pair > .media-frame,
+  .banner-block > .media-frame,
+  .inner-hero-media,
+  .aside-media,
+  .feature-media {
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+  }
+
+  .hero-visual > .media-frame,
+  .story-block > .media-frame,
+  .service-pair > .media-frame,
+  .banner-block > .media-frame,
+  .inner-hero-media,
+  .aside-media {
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .feature-media {
+    padding: 0;
+  }
+
+  .hero-visual > .media-frame img,
+  .story-block > .media-frame img,
+  .service-pair > .media-frame img,
+  .banner-block > .media-frame img,
+  .inner-hero-media img,
+  .aside-media img,
+  .feature-media img {
+    border-radius: 0;
+    border: 0;
+  }
+
   .btn {
     width: 100%;
   }
