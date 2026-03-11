@@ -1,6 +1,8 @@
-:root{
+:root {
   --brand-name: "Gesen";
-  --primary: #f97316;
-  --text: #111;
-  --bg: #fff;
+  --primary: #b26c3c;
+  --accent: #c98e5c;
+  --text: #1b2330;
+  --muted: #5f6875;
+  --bg: #f5ede3;
 }
